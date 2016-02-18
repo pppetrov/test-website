@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS animals;
+
+CREATE TABLE animals (
+       id SERIAL UNIQUE PRIMARY KEY,
+       name VARCHAR(255)
+);
